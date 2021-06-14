@@ -1,0 +1,90 @@
+
+
+ body {
+  background-color: #e1ad01;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+  border:  5px solid rgb(145, 92, 182);
+}
+.card:hover{
+    border: 5px solid;
+    animation: borders 2s linear infinite;
+}
+@keyframes borders
+  {
+      0%
+      {
+        border-color: rgba(58, 255, 3, 0.81);
+      }
+     
+      100%
+      {
+        border-color: rgb(145, 92, 182);
+      }
+  }
+
+  @-webkit-keyframes borders
+  {
+      0%
+      {
+        border-color: rgba(58, 255, 3, 0.81);
+      }
+      
+      100%
+      {
+        border-color: rgb(145, 92, 182);
+      }
+  }
+
+
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+  border: 2px solid #e1ad01;
+
+}
+.stats {
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+.articles {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number1 {
+  font-weight: 500;
+}
+.followers {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number2 {
+  font-weight: 500;
+  
+}
+.rating {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number3 {
+  font-weight: 500;
+} 

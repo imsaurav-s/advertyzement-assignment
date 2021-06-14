@@ -1,0 +1,55 @@
+nav{
+    background: transparent;
+}
+
+a{
+    color: rgb(145, 92, 182);
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.users{
+    text-align: center;
+    margin: auto;
+}
+.getuser{
+    text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: transparent;
+  padding: 15px 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: 5px solid;
+  border-radius: 20px;
+  animation: borders 2s linear infinite;
+}
+
+
+  @keyframes borders
+  {
+      0%
+      {
+        border-color: rgba(58, 255, 3, 0.81);
+      }
+     
+      100%
+      {
+        border-color: rgb(145, 92, 182);
+      }
+  }
+
+  @-webkit-keyframes borders
+  {
+      0%
+      {
+        border-color: rgba(58, 255, 3, 0.81);
+      }
+      
+      100%
+      {
+        border-color: rgb(145, 92, 182);
+      }
+  }
