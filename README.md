@@ -1,3 +1,13 @@
+This repo is a assignment given by advertyzment
+In this project I've used React for frontend and to call the API (given by the company) I've used npm axios 
+Simple and neat UI in which you have to click button Get User which present in navbar to call the api .
+Used css for some styling and effects 
+https://assingement.netlify.app/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
